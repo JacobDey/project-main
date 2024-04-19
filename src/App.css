@@ -1,0 +1,141 @@
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.car-image {
+  width: 300px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.logo{
+  color: orange;
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  background-color: #350157;
+  height: 50px;
+  padding: 10px;
+
+  & > div {
+    margin-right: 20px;
+    & > a {
+      color: #fff;
+      text-decoration: none;
+    }
+  
+    & > a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+
+.activeLink {
+  text-decoration: underline;
+  text-shadow: #350157;
+}
+
+.contact-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.contact-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #350157;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #150ab1;
+}
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.map-container {
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #350157;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4f0274;
+}
+
+.map-container {
+  width: 80vh;
+  text-align: center;
+  margin: auto;
+}
